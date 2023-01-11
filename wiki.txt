@@ -1,0 +1,11 @@
+1. What if your remote user branch too outdated from remote master, and refuses your push request caused by conflicts?
+
+Refresh the remote user branch:
+a. Create a new local branch based on this user created remote branch.
+b. Revert to the timepoint before all your changes to avoid any conflicts.
+c. Pull from remote master.
+d. Push to this remote user branch.
+
+Then:
+a. Switch to old local branch with your changes.
+b. Push to remote user branch.
